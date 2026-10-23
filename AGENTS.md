@@ -1,7 +1,6 @@
 # Agent rules for this repo
 
-Scope and conduct for AI agents working in Quant. `CLAUDE.md` has project context; the
-`~/Github/CLAUDE.md` workflow conventions apply on top of this file.
+Scope and conduct for AI agents working in Quant. `CLAUDE.md` has project context.
 
 ## Branch policy
 
@@ -12,8 +11,8 @@ Scope and conduct for AI agents working in Quant. `CLAUDE.md` has project contex
 
 ## Commits
 
-Format, sizing, attribution and staging discipline are global — see `~/.claude/CLAUDE.md`.
-This repo tightens two of them:
+Commits use Conventional Commits, one logical change each, staged by explicit path, with
+Mohammed as sole author and no AI trailers. This repo tightens two rules:
 
 - Conventional commits **always carry a scope** here, not only when it adds clarity.
 - **Lint** must pass too, not just tests, before any commit that touches code.
