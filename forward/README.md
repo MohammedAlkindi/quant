@@ -56,7 +56,7 @@ integration.
 1. Fetch fresh daily bars for SPY read-only (completed sessions only — drop
    any partial same-day bar; note `top_status` at fetch time).
 2. **If any new SPY ex-dividend has occurred since `data/SPY.csv` was
-   fetched** (next expected ~2026-09-18): do not splice across it. Re-fetch
+   fetched**: do not splice across it. Re-fetch
    the base with `python scripts/fetch_data.py`, then rebuild the tail from
    the new last base row, and regenerate the *backtest* goldens and tables
    too, per `docs/backtest.md`'s refresh caveat.
