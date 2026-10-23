@@ -120,7 +120,7 @@ experimental/       quarantined unvalidated code — zero call sites, defects la
 tests/              engine accounting, portfolio math, signals, golden reproductions
 data/SPY.csv        committed adjusted daily history (provenance in docs/backtest.md)
 forward/            forward window: vendored IBKR tail, decision log, connector inventory
-scripts/            fetch_data.py, plot_equity.py
+scripts/            fetch_data.py, plot_equity.py, plot_cost_study.py
 docs/               audit, architecture, backtest methodology, cost study, roadmap, assets
 infra/              docker-compose sketch + nginx config
 frontend/           React sources only — not buildable (no package.json)
