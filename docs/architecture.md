@@ -27,7 +27,7 @@ pin conflicts with modern yfinance — see the file header).
 | `GET /api/history/{ticker}` | yfinance OHLCV (auto-adjusted) |
 | `POST /api/signal/predict` | Heuristic signal (below) |
 | `GET /api/anomaly/{ticker}` | Runs the signal pipeline, returns the anomaly flags |
-| `POST /api/trade/execute` | Alpaca paper market order behind `confirmed=true` — no other checks; see the README warning |
+| `POST /api/trade/execute` | Alpaca paper market order. Requires `confirmed=true` and a positive `qty`. No risk checks. See the README warning |
 | `GET /api/portfolio` | Alpaca equity, cash, positions |
 | `POST /api/analyze`, `POST /api/explain` | Claude commentary on a context dict |
 

@@ -137,9 +137,9 @@ frontend/           React sources only — not buildable (no package.json)
 
 **This is not**
 
-- **A live trading system. Do not point it at real money.** `/trade/execute` checks
-  exactly one thing (`confirmed=true`); there are no buying-power, size, symbol, or
-  duplicate-order checks; the `stop_loss` in the response is informational — no stop order
+- **A live trading system. Do not point it at real money.** `/trade/execute` only requires
+  `confirmed=true` and a positive `qty`. There are no buying-power, size-limit, symbol, or
+  duplicate-order checks. The `stop_loss` in the response is informational. No stop order
   is ever placed. The default broker URL is Alpaca's paper endpoint. Risk controls are the
   top of the [roadmap](docs/roadmap.md), not a shipped feature.
 - An alpha source. The one strategy beyond buy-and-hold is a canonical baseline, and it
