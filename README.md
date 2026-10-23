@@ -105,9 +105,10 @@ bars spliced behind a seam check, same engine, same costs, reproduced by
 `python -m quant.forward` and pinned by
 [`tests/test_forward_golden.py`](tests/test_forward_golden.py) — beside a
 pre-registered, append-only decision log scored by `python -m quant.scoring`.
-As of 2026-08-14 the forward window is 16 bars, no cross has fired, and the
-crossover has been long throughout: identical to buy-and-hold at +5.31%. A
-window that short supports no conclusion; the lane exists to accumulate one.
+The committed forward data runs from 2026-07-23 to 2026-08-13, which is 16 bars.
+No cross fired in that window, and the crossover was long throughout, identical
+to buy-and-hold at +5.31%. A window that short supports no conclusion. The lane
+exists to accumulate one.
 
 ## Project structure
 
