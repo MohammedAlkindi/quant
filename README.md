@@ -4,6 +4,9 @@ Research-first quantitative trading scaffold: a cost-aware, out-of-sample backte
 and a FastAPI market-data/signal service, with every claim pinned to code, tests, or a
 reproducible run.
 
+Finished work, archived in November 2026. The research lane, the service and the tests below
+still run from a clean clone as described; no further changes are planned.
+
 <p align="center">
   <img src="docs/assets/hero.svg" alt="Quant — a research-first trading scaffold" width="840">
 </p>
